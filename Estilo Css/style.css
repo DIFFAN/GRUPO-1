@@ -1,0 +1,25 @@
+.titulo{
+    text-align: center;
+    color: #12A43E ;
+    font-size: 3.2rem;
+}
+.titulo span{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.opciones{
+    text-align: center;
+    color: #5499C7 ;
+    font-size: 1.3rem;
+}
+.contenido{
+    text-align: center;    
+}
+.servicio{
+    text-align: center;
+    color: #14BB7E;
+    font-size: 1.8rem;
+}
+.inicio{
+    color: #1254A4 ;
+}
