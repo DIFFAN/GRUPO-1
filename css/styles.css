@@ -41,7 +41,7 @@ body {
 
 }
 
-@media (min-width: 780px) {
+@media (min-width: 480px) {
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
