@@ -42,13 +42,22 @@ body {
 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 780px) {
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
     }
     
 }
+
+@media (min-width: 480px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
 .navegacion-principal a {
     display: block;
     color: var(--blaco);
@@ -61,4 +70,8 @@ body {
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
+}
+
+.hero{
+    background-image: url(../image/imagen1.jpg);
 }
