@@ -4,6 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
+    --rojo: #DD0000;
     --fuente-principal: 3.8rem;
 }
 
@@ -38,6 +39,8 @@ body {
 
 .navegacion-principal {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
    
 
 }
@@ -60,5 +63,5 @@ body {
 
 .navegacion-principal a:hover {
     background-color: var(--primario);
-    color: var(--oscuro);
+    color: var(--blaco);
 }
