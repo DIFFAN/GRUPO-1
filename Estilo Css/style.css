@@ -4,6 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
+    --grisClaro: #DFE9F3;
     --fuente-principal: 3.8rem;
 }
 
@@ -39,6 +40,15 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top,var(--grisClaro)0%,VAR(--blanco)100%) ;
+}
+.sombra{
+    /*-webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0,54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0,54);*/
+     box-shadow: 0px 5px 15px 0px rgba(112,112,112,0,54);
+     background-color: VAR(--blanco);
+     padding: 2rem 2rem ;
+     border-radius: 1rem;
 }
 
 .titulo {
@@ -55,6 +65,20 @@ body {
 .contenedor {
     max-width: 120rem;
     margin: 0 auto 0 auto;
+}
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
 }
 .nav-bg {
     background-color: var(--secundario);
@@ -85,4 +109,13 @@ body {
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);
+}
+.hero {
+    background-image: url(../Imagen/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    padding: px;
+    position: relative;
+    margin-bottom:2rem ;
 }
