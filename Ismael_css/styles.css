@@ -4,6 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
+    --grisClaro: #DFE9F3;
     --fuente-principal: 3.8rem;
 }
 
@@ -21,6 +22,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top,var(--grisClaro)50%,VAR(--blanco)100%) ;
 }
 
 h1 {
@@ -59,6 +61,15 @@ h1, h2, h3 {
     text-align: center;
     border: none;
 }
+.sombra{
+        /*-webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0,54);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0,54);*/
+         box-shadow: 0px 5px 15px 0px rgba(112,112,112,0,54);
+         background-color: VAR(--blanco);
+         padding: 2rem 2rem ;
+         border-radius: 1rem;
+    }    
+
 @media(min-width: 480px){
     .boton{
         width: auto;
@@ -101,9 +112,6 @@ h1, h2, h3 {
     background-color: var(--primario);
     color: var(--oscuro);
 }
-
-
-
 .hero {
     background-image: url(../Imagen/Fondo1.jpg);
     background-repeat: no-repeat;
